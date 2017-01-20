@@ -19,7 +19,7 @@ public abstract class Mood {
     }
 
     public String format(){
-        return "Basic";
+        return "Base";
     }
 
     public Date getDate() {
