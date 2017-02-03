@@ -28,7 +28,7 @@ public abstract class Mood {
     /**
      * Format string.
      *
-     * @return the string
+     * @return the string associated with the corresponding Mood
      */
     public String format(){
         return "Base";

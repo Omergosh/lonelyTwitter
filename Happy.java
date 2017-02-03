@@ -8,14 +8,14 @@ import java.util.Date;
 public class Happy extends Mood {
 
     /**
-     * Instantiates a new Happy.
+     * Instantiates a new Happy Mood.
      */
     public Happy(){
         super();
     }
 
     /**
-     * Instantiates a new Happy.
+     * Instantiates a new Happy Mood.
      *
      * @param date the date
      */

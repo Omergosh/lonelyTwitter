@@ -66,7 +66,7 @@ public abstract class Tweet {
      * Sets message.
      *
      * @param message the message
-     * @throws TweetTooLongException the tweet too long exception
+     * @throws TweetTooLongException (the tweet too long exception) if the message contains more than 144 characters.
      */
     public void setMessage(String message) throws TweetTooLongException {
         if(message.length() > 144){

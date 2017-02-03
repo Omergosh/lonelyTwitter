@@ -8,14 +8,14 @@ import java.util.Date;
 public class Sad extends Mood {
 
     /**
-     * Instantiates a new Sad.
+     * Instantiates a new Sad Mood.
      */
     public Sad(){
         super();
     }
 
     /**
-     * Instantiates a new Sad.
+     * Instantiates a new Sad Mood.
      *
      * @param date the date
      */

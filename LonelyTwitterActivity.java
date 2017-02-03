@@ -75,7 +75,11 @@ public class LonelyTwitterActivity extends Activity {
 	private ArrayList<Tweet> tweetList;
 	private ArrayAdapter<Tweet> adapter;
 	
-	/** Called when the activity is first created. */
+	/** Called when the activity is first created.
+	 * Adds listeners to Save button and Clear button
+	 * Save: save current tweets to file.
+	 * Clear: clear current and saved tweets.*/
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -147,7 +151,7 @@ public class LonelyTwitterActivity extends Activity {
 	}
 
 	/**
-	 * Loads tweet from specified file.
+	 * Loads tweet from a specified file in JSON format.
 	 *
 	 * @throws TweetTooLongException if the text is too long.
 	 * @exception FileNotFoundException if the file is not created first.
