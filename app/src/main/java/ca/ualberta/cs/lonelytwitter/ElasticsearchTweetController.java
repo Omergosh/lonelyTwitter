@@ -62,12 +62,14 @@ public class ElasticsearchTweetController {
                 query = "{\n"
                         + "    query: {\n"
                         + "        filtered : {\n"
-                        + "            query_string : {\n"
-                        + "                    term : " + search_parameters[0] + ";\n"
+                        + "            query: {\n"
+                        + "                query_string : {\n"
+                        + "                        term : " + search_parameters[0] + ";\n"
+                        + "                }\n"
                         + "            }\n"
                         + "        }\n"
                         + "    }\n"
-                        + "}\n";
+                        + "}";
             }
 
 
